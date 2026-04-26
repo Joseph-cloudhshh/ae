@@ -1,0 +1,19 @@
+{
+  "name": "aether-chat",
+  "version": "1.0.0",
+  "description": "Aether — AI Chat with memory, powered by Claude via OpenRouter & Supabase",
+  "type": "module",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4"
+  },
+  "devDependencies": {
+    "vercel": "^37.0.0"
+  }
+}
